@@ -56,3 +56,13 @@ for value in anagram_map.values():
     result.append(value)
 
 return result
+
+# Leetcode 1
+
+prevMap = {} # val : index
+
+        for i, n in enumerate(nums):
+            diff = target-n
+            if diff in prevMap:
+                return [prevMap[diff], i]
+            prevMap[n] = i
