@@ -14,7 +14,7 @@ print(new_string)
 # Character methods
 # .isalpha() returns true if every character is a letter, false if not
 # .isnumeric() returns true if every character is a number, false if not
-# .isalnum() returns true if every character is either a letter or number, false if not
+# .isalnum() returns true if every character is either a letter or number, false if not a letter or number
 
 # Other methods
 # .count() returns how many times a character is in a string
